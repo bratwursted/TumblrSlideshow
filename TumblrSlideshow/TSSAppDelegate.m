@@ -14,8 +14,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // init set Tumblr API client
-    [TMAPIClient sharedInstance].OAuthConsumerKey = @"l2jbGKjm2cnwJtM4R9a4iJp9AkPwyLTBHTMh621QVbBovgdK8M";
-    [TMAPIClient sharedInstance].OAuthConsumerSecret = @"LBjSdcIaLX0lO8tfSGRf33ZKscXKeek4D2gqLEFJ28Ih9DQlx7";
+    // fill in using your keys
+    [TMAPIClient sharedInstance].OAuthConsumerKey = @"";
+    [TMAPIClient sharedInstance].OAuthConsumerSecret = @"";
 
     return YES;
 }
